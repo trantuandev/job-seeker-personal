@@ -47,7 +47,7 @@ public class CVServlet extends HttpServlet {
 
         switch (action) {
             case "view-cv":
-                viewCV(request, response);
+                url = viewCV(request, response);
                 return; // Stop further processing
 
             case "update-cv":

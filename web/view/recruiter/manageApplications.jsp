@@ -240,22 +240,16 @@
                                         </td>
 
                                         <td>
-                                            <c:choose>
-                                                <c:when test="${application.getStatus() == 1 || application.getStatus() == 0}">
-                                                    No information
-                                                </c:when>
-                                                <c:otherwise>
-                                                    <a href="${pageContext.request.contextPath}/applicationSeekers?action=viewCV&id=${application.getCVID()}" class="btn-action text-primary">
-                                                        <i class="fas fa-file-pdf"></i>CV
-                                                    </a>
-                                                    <a href="${pageContext.request.contextPath}/applicationSeekers?action=viewEducation&id=${application.jobSeeker.getJobSeekerID()}" class="btn-action text-secondary">
-                                                        <i class="fas fa-graduation-cap"></i>Education
-                                                    </a>
-                                                    <a href="${pageContext.request.contextPath}/applicationSeekers?action=viewWorkExperience&id=${application.jobSeeker.getJobSeekerID()}" class="btn-action text-warning">
-                                                        <i class="fas fa-briefcase"></i>Work Experience
-                                                    </a>
-                                                </c:otherwise>
-                                            </c:choose>
+                                            <a href="${pageContext.request.contextPath}/applicationSeekers?action=viewCV&id=${application.getJobSeekerID()}" class="btn-action text-primary">
+                                                <i class="fas fa-file-pdf"></i>CV
+                                            </a>
+                                            <a href="${pageContext.request.contextPath}/applicationSeekers?action=viewEducation&id=${application.jobSeeker.getJobSeekerID()}" class="btn-action text-secondary">
+                                                <i class="fas fa-graduation-cap"></i>Education
+                                            </a>
+                                            <a href="${pageContext.request.contextPath}/applicationSeekers?action=viewWorkExperience&id=${application.jobSeeker.getJobSeekerID()}" class="btn-action text-warning">
+                                                <i class="fas fa-briefcase"></i>Work Experience
+                                            </a>
+
                                         </td>
 
                                         <%
@@ -368,7 +362,7 @@
                                         }
         </script>
         <!-- TinyMCE và mã JavaScript cho nút Reset -->
-        <script src="https://cdn.tiny.cloud/1/ygxzbqd4ej8z1yjswkp0ljn56qm4r6luix9l83auaajk3h3q/tinymce/7/tinymce.min.js" referrerpolicy="origin"></script>
+        <script src="https://cdn.tiny.cloud/1/vaugmbxpwey72le9o04xzdbx0pb0cgxv4ysvnlmu1qnlmngd/tinymce/7/tinymce.min.js" referrerpolicy="origin"></script>
         <script>
                                         // Khởi tạo TinyMCE cho textarea với id là 'emailContent'
                                         tinymce.init({

@@ -13,7 +13,7 @@
         <!-- Font Awesome for icons -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
         <!-- TinyMCE Script -->
-        <script src="https://cdn.tiny.cloud/1/ygxzbqd4ej8z1yjswkp0ljn56qm4r6luix9l83auaajk3h3q/tinymce/7/tinymce.min.js" referrerpolicy="origin"></script>
+        <script src="https://cdn.tiny.cloud/1/vaugmbxpwey72le9o04xzdbx0pb0cgxv4ysvnlmu1qnlmngd/tinymce/7/tinymce.min.js" referrerpolicy="origin"></script>
 
         <style>
             /* General form container styles */
@@ -190,8 +190,6 @@
                                 <label for="jobStatus">Status:</label>
                                 <select id="jobStatus" name="jobStatus" class="form-control" required>
                                     <option value="Open" <c:if test="${jobStatus == 'Open'}">selected</c:if>>Open</option>
-<!--                                    <option value="Filled" <c:if test="${jobStatus == 'Filled'}">selected</c:if>>Filled</option>
-                                    <option value="Closed" <c:if test="${jobStatus == 'Closed'}">selected</c:if>>Closed</option>-->
                                     </select>
                                 </div>
                             </div>

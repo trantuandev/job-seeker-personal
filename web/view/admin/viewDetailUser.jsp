@@ -184,7 +184,7 @@
                                                 <th>Field Of Study</th>
                                                 <th>Start Date</th>
                                                 <th>End Date</th>
-                                                <th>Certificate</th>
+                                                <th>Degree Image</th>
                                             </tr>
                                         </thead>
                                         <tbody>

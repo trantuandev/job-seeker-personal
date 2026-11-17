@@ -105,11 +105,11 @@
             </div>
 
             <!-- Download CV Button -->
-            <div class="text-center">
-                <a href="${pageContext.request.contextPath}/downloadCV?cvid=${cv.CVID}" class="download-button">
+<!--            <div class="text-center">
+                <a href="${pageContext.request.contextPath}/downloadCV?cvid=${cv.getCVID()}" class="download-button">
                     <i class="fas fa-download"></i> Download CV
                 </a>
-            </div>
+            </div>-->
 
             <!-- Back Button -->
             <div class="text-center">

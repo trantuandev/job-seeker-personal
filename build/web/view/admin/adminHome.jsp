@@ -153,7 +153,7 @@
                     <div class="row">
                         <div class="col-md-8">
                             <div class="card chart-container">
-                                <h4 class="chart-title-green">Top 5 Employers with the Most Posts Chart</h4>
+                                <h4 class="chart-title-green">Top 5 Recruiters with the Most Posts Chart</h4>
                                 <div class="card-body">
                                     <canvas id="jobPostingTopRecruitersChart"></canvas>
                                 </div>
